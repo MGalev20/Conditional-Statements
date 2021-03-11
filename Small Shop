@@ -1,0 +1,36 @@
+product = str(input())
+city = str(input())
+qty = int(input())
+if city=="Sofia":
+    if product=="coffee":
+        print(f"You have to pay {0.50*qty}")
+    if product=="water":
+        print(f"You have to pay {0.80 * qty}")
+    if product=="beer":
+        print(f"Yo have to pay {1.20* qty}")
+    if product=="sweets":
+        print (f"You have to pay {1.45 * qty}")
+    if product=="peanuts":
+        print (f"You have to pay {1.60 * qty}")
+elif city=="Plovdiv":
+    if product=="coffee":
+        print(f"You have to pay {0.40*qty}")
+    if product=="water":
+        print(f"You have to pay {0.70 * qty}")
+    if product=="beer":
+        print(f"Yo have to pay {1.15* qty}")
+    if product=="sweets":
+        print (f"You have to pay {1.30 * qty}")
+    if product=="peanuts":
+        print (f"You have to pay {1.50 * qty}")
+elif city=="Varna":
+    if product=="coffee":
+        print(f"You have to pay {0.45*qty}")
+    if product=="water":
+        print(f"You have to pay {0.70 * qty}")
+    if product=="beer":
+        print(f"Yo have to pay {1.10* qty}")
+    if product=="sweets":
+        print (f"You have to pay {1.35 * qty}")
+    if product=="peanuts":
+        print (f"You have to pay {1.55 * qty}")
